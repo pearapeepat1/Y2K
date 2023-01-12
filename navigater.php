@@ -8,7 +8,7 @@
         <a class="nav-link text-light" href="show_province.php">Province</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="#">Customer</a>
+        <a class="nav-link text-light" href="Customer.php">Customer</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-light" href="#">Minor</a>
