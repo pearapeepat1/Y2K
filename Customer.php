@@ -5,7 +5,7 @@ include 'navigater.php';
 include 'connect_s1.php';
 ?>
 <div class="container mt-5">
-    <h1>Data of Province</h1>
+    <h1>Data of Customer</h1>
     <table class = "table table-striped">
         <th>Customer ID</th>
         <th>Customer Name</th>
