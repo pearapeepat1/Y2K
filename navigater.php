@@ -9,14 +9,12 @@
       </li>
       <li class="nav-item">
         <a class="nav-link text-light" href="Customer.php">Customer</a>
-        <a class="nav-link text-light" href="customer.php">Customer</a>
-        <a class="nav-link text-light" href="#">Customer</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="#">Minor</a>
+        <a class="nav-link text-light" href="minor.php">Minor</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled " href="minor.php">Minor</a>
+        <a class="nav-link disabled " href="#">disable</a>
       </li>
     </ul>
   </div>
