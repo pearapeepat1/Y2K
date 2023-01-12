@@ -5,15 +5,14 @@ include 'navigater.php';
 include 'connect_s1.php';
 ?>
 <div class="container mt-5">
-    <h1>Data of Student3</h1>
+    <h1>Data of Province</h1>
     <table class = "table table-striped">
-        <th>StudentID</th>
-        <th>Name</th>
-        <th>GroupID</th>
-        <th>Grade</th>
+        <th>ProvinceCode</th>
+        <th>Province Name</th>
+        <th>Zone ID</th>
 
         <?php
-        $sql = "SELECT * FROM student3";
+        $sql = "SELECT * FROM province";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -21,10 +20,9 @@ include 'connect_s1.php';
             while ($row = $result->fetch_assoc()) {
                 ?>
                     <tr>
-                        <td><?php echo $row['student_id']?></td>
-                        <td><?php echo $row['name']?></td>
-                        <td><?php echo $row['group_id']?></td>
-                        <td><?php echo $row['level_group']?></td>
+                        <td><?php echo $row['PROVINCE_CODE']?></td>
+                        <td><?php echo $row['PROVINCE_NAME']?></td>
+                        <td><?php echo $row['zone_id']?></td>
                     </tr>
                 <?php
             }
